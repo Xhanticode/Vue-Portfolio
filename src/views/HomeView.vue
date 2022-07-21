@@ -1,0 +1,1487 @@
+<template>
+  <!-- Main Container  -->
+  <div class="row main-container d-inline-flex">
+    <!-- Landing Image  -->
+    <div class="col-sm-5 image-box">
+      <div class="picture">
+        <img
+          class="main-image img-responsive"
+          src="../../images/Xhanti-Full-Picture.jpg"
+          alt="Mr Foures"
+        />
+      </div>
+      <div class="image-frame" id="frame-1"></div>
+      <div class="image-frame" id="frame-2"></div>
+      <div class="image-frame" id="frame-3"></div>
+    </div>
+    <!-- Scroll Content  -->
+    <div class="scroll-content col-sm-7 d-flex-start">
+      <!-- Introduction  -->
+      <section class="introduction" id="introduction">
+        <div class="section-head-1">
+          <!-- <h3 class="section-title" style="padding-left: 0">introduction</h3> -->
+          <!-- <h1 class="section-subtitle" id="landing-title">
+            I'm a Creative Developer & Design Expert
+          </h1> -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <svg id="landing-title" width="633" height="90" viewBox="0 0 633 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.720001 15.04C0.720001 12.32 1.33333 9.88 2.56 7.72C3.78667 5.53333 5.45333 3.82666 7.56 2.6C9.69333 1.37333 12.0533 0.759996 14.64 0.759996C17.68 0.759996 20.3333 1.49333 22.6 2.96C24.8667 4.42666 26.52 6.50666 27.56 9.2H23.2C22.4267 7.52 21.3067 6.22666 19.84 5.32C18.4 4.41333 16.6667 3.96 14.64 3.96C12.6933 3.96 10.9467 4.41333 9.4 5.32C7.85333 6.22666 6.64 7.52 5.76 9.2C4.88 10.8533 4.44 12.8 4.44 15.04C4.44 17.2533 4.88 19.2 5.76 20.88C6.64 22.5333 7.85333 23.8133 9.4 24.72C10.9467 25.6267 12.6933 26.08 14.64 26.08C16.6667 26.08 18.4 25.64 19.84 24.76C21.3067 23.8533 22.4267 22.56 23.2 20.88H27.56C26.52 23.5467 24.8667 25.6133 22.6 27.08C20.3333 28.52 17.68 29.24 14.64 29.24C12.0533 29.24 9.69333 28.64 7.56 27.44C5.45333 26.2133 3.78667 24.52 2.56 22.36C1.33333 20.2 0.720001 17.76 0.720001 15.04Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M51.6584 29L45.0184 17.6H40.6184V29H36.9784V1.12H45.9784C48.0851 1.12 49.8584 1.48 51.2984 2.2C52.7651 2.92 53.8584 3.89333 54.5784 5.12C55.2984 6.34666 55.6584 7.74666 55.6584 9.32C55.6584 11.24 55.0984 12.9333 53.9784 14.4C52.8851 15.8667 51.2318 16.84 49.0184 17.32L56.0184 29H51.6584ZM40.6184 14.68H45.9784C47.9518 14.68 49.4318 14.2 50.4184 13.24C51.4051 12.2533 51.8984 10.9467 51.8984 9.32C51.8984 7.66666 51.4051 6.38666 50.4184 5.48C49.4584 4.57333 47.9784 4.12 45.9784 4.12H40.6184V14.68Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M68.9544 4.08V13.4H79.1144V16.4H68.9544V26H80.3144V29H65.3144V1.08H80.3144V4.08H68.9544Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M106.302 22.8H94.1422L91.9022 29H88.0622L98.1422 1.28H102.342L112.382 29H108.542L106.302 22.8ZM105.262 19.84L100.222 5.76L95.1822 19.84H105.262Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M137.935 1.12V4.08H130.335V29H126.695V4.08H119.055V1.12H137.935Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M150.056 1.12V29H146.416V1.12H150.056Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M183.3 1.12L172.78 29H168.58L158.06 1.12H161.94L170.7 25.16L179.46 1.12H183.3Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M194.931 4.08V13.4H205.091V16.4H194.931V26H206.291V29H191.291V1.08H206.291V4.08H194.931Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M265.503 1.12L257.423 29H253.343L246.863 6.56L240.143 29L236.103 29.04L228.303 1.12H232.183L238.263 24.76L244.983 1.12H249.063L255.463 24.68L261.583 1.12H265.503Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M277.126 4.08V13.4H287.286V16.4H277.126V26H288.486V29H273.486V1.08H288.486V4.08H277.126Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M311.954 14.64C312.967 14.8 313.887 15.2133 314.714 15.88C315.567 16.5467 316.234 17.3733 316.714 18.36C317.221 19.3467 317.474 20.4 317.474 21.52C317.474 22.9333 317.114 24.2133 316.394 25.36C315.674 26.48 314.621 27.3733 313.234 28.04C311.874 28.68 310.261 29 308.394 29H297.994V1.12H307.994C309.887 1.12 311.501 1.44 312.834 2.08C314.167 2.69333 315.167 3.53333 315.834 4.6C316.501 5.66666 316.834 6.86666 316.834 8.2C316.834 9.85333 316.381 11.2267 315.474 12.32C314.594 13.3867 313.421 14.16 311.954 14.64ZM301.634 13.16H307.754C309.461 13.16 310.781 12.76 311.714 11.96C312.647 11.16 313.114 10.0533 313.114 8.64C313.114 7.22666 312.647 6.12 311.714 5.32C310.781 4.52 309.434 4.12 307.674 4.12H301.634V13.16ZM308.074 26C309.887 26 311.301 25.5733 312.314 24.72C313.327 23.8667 313.834 22.68 313.834 21.16C313.834 19.6133 313.301 18.4 312.234 17.52C311.167 16.6133 309.741 16.16 307.954 16.16H301.634V26H308.074Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M349.869 1.12C352.909 1.12 355.536 1.69333 357.749 2.84C359.989 3.96 361.696 5.57333 362.869 7.68C364.069 9.78666 364.669 12.2667 364.669 15.12C364.669 17.9733 364.069 20.4533 362.869 22.56C361.696 24.64 359.989 26.24 357.749 27.36C355.536 28.4533 352.909 29 349.869 29H341.189V1.12H349.869ZM349.869 26C353.469 26 356.216 25.0533 358.109 23.16C360.003 21.24 360.949 18.56 360.949 15.12C360.949 11.6533 359.989 8.94666 358.069 7C356.176 5.05333 353.443 4.08 349.869 4.08H344.829V26H349.869Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M377.111 4.08V13.4H387.271V16.4H377.111V26H388.471V29H373.471V1.08H388.471V4.08H377.111Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M421.018 1.12L410.498 29H406.298L395.778 1.12H399.658L408.418 25.16L417.178 1.12H421.018Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M432.65 4.08V13.4H442.81V16.4H432.65V26H444.01V29H429.01V1.08H444.01V4.08H432.65Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M457.158 26.04H466.918V29H453.517V1.12H457.158V26.04Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M487.423 29.28C484.836 29.28 482.476 28.68 480.343 27.48C478.21 26.2533 476.516 24.56 475.263 22.4C474.036 20.2133 473.423 17.76 473.423 15.04C473.423 12.32 474.036 9.88 475.263 7.72C476.516 5.53333 478.21 3.84 480.343 2.64C482.476 1.41333 484.836 0.799996 487.423 0.799996C490.036 0.799996 492.41 1.41333 494.543 2.64C496.676 3.84 498.356 5.52 499.583 7.68C500.81 9.84 501.423 12.2933 501.423 15.04C501.423 17.7867 500.81 20.24 499.583 22.4C498.356 24.56 496.676 26.2533 494.543 27.48C492.41 28.68 490.036 29.28 487.423 29.28ZM487.423 26.12C489.37 26.12 491.116 25.6667 492.663 24.76C494.236 23.8533 495.463 22.56 496.343 20.88C497.25 19.2 497.703 17.2533 497.703 15.04C497.703 12.8 497.25 10.8533 496.343 9.2C495.463 7.52 494.25 6.22666 492.703 5.32C491.156 4.41333 489.396 3.96 487.423 3.96C485.45 3.96 483.69 4.41333 482.143 5.32C480.596 6.22666 479.37 7.52 478.463 9.2C477.583 10.8533 477.143 12.8 477.143 15.04C477.143 17.2533 477.583 19.2 478.463 20.88C479.37 22.56 480.596 23.8533 482.143 24.76C483.716 25.6667 485.476 26.12 487.423 26.12Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M528.868 9.28C528.868 11.6 528.068 13.5333 526.468 15.08C524.895 16.6 522.482 17.36 519.228 17.36H513.868V29H510.228V1.12H519.228C522.375 1.12 524.762 1.88 526.388 3.4C528.042 4.92 528.868 6.88 528.868 9.28ZM519.228 14.36C521.255 14.36 522.748 13.92 523.708 13.04C524.668 12.16 525.148 10.9067 525.148 9.28C525.148 5.84 523.175 4.12 519.228 4.12H513.868V14.36H519.228Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M541.033 4.08V13.4H551.193V16.4H541.033V26H552.393V29H537.393V1.08H552.393V4.08H541.033Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M576.58 29L569.94 17.6H565.54V29H561.9V1.12H570.9C573.007 1.12 574.78 1.48 576.22 2.2C577.687 2.92 578.78 3.89333 579.5 5.12C580.22 6.34666 580.58 7.74666 580.58 9.32C580.58 11.24 580.02 12.9333 578.9 14.4C577.807 15.8667 576.154 16.84 573.94 17.32L580.94 29H576.58ZM565.54 14.68H570.9C572.874 14.68 574.354 14.2 575.34 13.24C576.327 12.2533 576.82 10.9467 576.82 9.32C576.82 7.66666 576.327 6.38666 575.34 5.48C574.38 4.57333 572.9 4.12 570.9 4.12H565.54V14.68Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M626.3 29L622.66 25.32C621.3 26.7333 619.847 27.7867 618.3 28.48C616.754 29.1467 615.007 29.48 613.06 29.48C611.14 29.48 609.434 29.1333 607.94 28.44C606.474 27.7467 605.327 26.76 604.5 25.48C603.7 24.2 603.3 22.7067 603.3 21C603.3 19.0533 603.847 17.3467 604.94 15.88C606.06 14.3867 607.7 13.2133 609.86 12.36C609.007 11.3467 608.394 10.4133 608.02 9.56C607.647 8.70666 607.46 7.77333 607.46 6.76C607.46 5.58666 607.754 4.53333 608.34 3.6C608.954 2.64 609.82 1.89333 610.94 1.36C612.06 0.826664 613.354 0.559998 614.82 0.559998C616.26 0.559998 617.514 0.839997 618.58 1.4C619.647 1.96 620.447 2.74666 620.98 3.76C621.514 4.74666 621.754 5.85333 621.7 7.08H618.06C618.087 5.98666 617.78 5.13333 617.14 4.52C616.5 3.88 615.674 3.56 614.66 3.56C613.594 3.56 612.727 3.86666 612.06 4.48C611.42 5.06666 611.1 5.82666 611.1 6.76C611.1 7.56 611.314 8.33333 611.74 9.08C612.194 9.82666 612.94 10.7467 613.98 11.84L622.3 20.2L623.02 19.08L625.74 14.52H629.66L626.38 20.2C625.927 21 625.394 21.84 624.78 22.72L631.06 29H626.3ZM613.06 26.36C614.5 26.36 615.794 26.08 616.94 25.52C618.114 24.96 619.22 24.0933 620.26 22.92L612.06 14.68C608.647 15.9867 606.94 18.0533 606.94 20.88C606.94 22.4533 607.5 23.76 608.62 24.8C609.767 25.84 611.247 26.36 613.06 26.36Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M10.76 61.12C13.8 61.12 16.4267 61.6933 18.64 62.84C20.88 63.96 22.5867 65.5733 23.76 67.68C24.96 69.7867 25.56 72.2667 25.56 75.12C25.56 77.9733 24.96 80.4533 23.76 82.56C22.5867 84.64 20.88 86.24 18.64 87.36C16.4267 88.4533 13.8 89 10.76 89H2.08V61.12H10.76ZM10.76 86C14.36 86 17.1067 85.0533 19 83.16C20.8933 81.24 21.84 78.56 21.84 75.12C21.84 71.6533 20.88 68.9467 18.96 67C17.0667 65.0533 14.3333 64.08 10.76 64.08H5.72V86H10.76Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M38.0013 64.08V73.4H48.1613V76.4H38.0013V86H49.3613V89H34.3613V61.08H49.3613V64.08H38.0013Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M67.7091 89.28C65.8691 89.28 64.2157 88.96 62.7491 88.32C61.3091 87.6533 60.1757 86.7467 59.3491 85.6C58.5224 84.4267 58.0957 83.08 58.0691 81.56H61.9491C62.0824 82.8667 62.6157 83.9733 63.5491 84.88C64.5091 85.76 65.8957 86.2 67.7091 86.2C69.4424 86.2 70.8024 85.7733 71.7891 84.92C72.8024 84.04 73.3091 82.92 73.3091 81.56C73.3091 80.4933 73.0157 79.6267 72.4291 78.96C71.8424 78.2933 71.1091 77.7867 70.2291 77.44C69.3491 77.0933 68.1624 76.72 66.6691 76.32C64.8291 75.84 63.3491 75.36 62.2291 74.88C61.1357 74.4 60.1891 73.6533 59.3891 72.64C58.6157 71.6 58.2291 70.2133 58.2291 68.48C58.2291 66.96 58.6157 65.6133 59.3891 64.44C60.1624 63.2667 61.2424 62.36 62.6291 61.72C64.0424 61.08 65.6557 60.76 67.4691 60.76C70.0824 60.76 72.2157 61.4133 73.8691 62.72C75.5491 64.0267 76.4957 65.76 76.7091 67.92H72.7091C72.5757 66.8533 72.0157 65.92 71.0291 65.12C70.0424 64.2933 68.7357 63.88 67.1091 63.88C65.5891 63.88 64.3491 64.28 63.3891 65.08C62.4291 65.8533 61.9491 66.9467 61.9491 68.36C61.9491 69.3733 62.2291 70.2 62.7891 70.84C63.3757 71.48 64.0824 71.9733 64.9091 72.32C65.7624 72.64 66.9491 73.0133 68.4691 73.44C70.3091 73.9467 71.7891 74.4533 72.9091 74.96C74.0291 75.44 74.9891 76.2 75.7891 77.24C76.5891 78.2533 76.9891 79.64 76.9891 81.4C76.9891 82.76 76.6291 84.04 75.9091 85.24C75.1891 86.44 74.1224 87.4133 72.7091 88.16C71.2957 88.9067 69.6291 89.28 67.7091 89.28Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M89.9856 61.12V89H86.3456V61.12H89.9856Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M121.309 69.2C120.536 67.5733 119.416 66.32 117.949 65.44C116.483 64.5333 114.776 64.08 112.829 64.08C110.883 64.08 109.123 64.5333 107.549 65.44C106.003 66.32 104.776 67.6 103.869 69.28C102.989 70.9333 102.549 72.8533 102.549 75.04C102.549 77.2267 102.989 79.1467 103.869 80.8C104.776 82.4533 106.003 83.7333 107.549 84.64C109.123 85.52 110.883 85.96 112.829 85.96C115.549 85.96 117.789 85.1467 119.549 83.52C121.309 81.8933 122.336 79.6933 122.629 76.92H111.509V73.96H126.509V76.76C126.296 79.0533 125.576 81.16 124.349 83.08C123.123 84.9733 121.509 86.48 119.509 87.6C117.509 88.6933 115.283 89.24 112.829 89.24C110.243 89.24 107.883 88.64 105.749 87.44C103.616 86.2133 101.923 84.52 100.669 82.36C99.4427 80.2 98.8294 77.76 98.8294 75.04C98.8294 72.32 99.4427 69.88 100.669 67.72C101.923 65.5333 103.616 63.84 105.749 62.64C107.883 61.4133 110.243 60.8 112.829 60.8C115.789 60.8 118.403 61.5333 120.669 63C122.963 64.4667 124.629 66.5333 125.669 69.2H121.309Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M157.242 89H153.602L138.962 66.8V89H135.322V61.08H138.962L153.602 83.24V61.08H157.242V89Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M171.087 64.08V73.4H181.247V76.4H171.087V86H182.447V89H167.447V61.08H182.447V64.08H171.087Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+<path d="M206.635 89L199.995 77.6H195.595V89H191.955V61.12H200.955C203.062 61.12 204.835 61.48 206.275 62.2C207.742 62.92 208.835 63.8933 209.555 65.12C210.275 66.3467 210.635 67.7467 210.635 69.32C210.635 71.24 210.075 72.9333 208.955 74.4C207.862 75.8667 206.208 76.84 203.995 77.32L210.995 89H206.635ZM195.595 74.68H200.955C202.928 74.68 204.408 74.2 205.395 73.24C206.382 72.2533 206.875 70.9467 206.875 69.32C206.875 67.6667 206.382 66.3867 205.395 65.48C204.435 64.5733 202.955 64.12 200.955 64.12H195.595V74.68Z" stroke="white" mask="url(#path-1-outside-1_3_10)"/>
+</svg>
+
+              </div>
+              <div class="flip-card-back">
+                <svg
+                  width="275"
+                  height="38"
+                  viewBox="0 0 275 37"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g filter="url(#filter0_d_1_4)">
+                    <path
+                      d="M17.48 14.08L17.0543 13.8177L16.8929 14.0798L17.0541 14.3419L17.48 14.08ZM26.04 28V28.5H26.9344L26.4659 27.7381L26.04 28ZM21.92 28L21.4939 28.2616L21.6403 28.5H21.92V28ZM15.24 17.12L15.6661 16.8584L15.2295 16.1472L14.8083 16.8677L15.24 17.12ZM8.88 28V28.5H9.16688L9.31166 28.2523L8.88 28ZM4.84 28L4.41354 27.739L3.94774 28.5H4.84V28ZM13.36 14.08L13.7865 14.341L13.9464 14.0798L13.7862 13.8186L13.36 14.08ZM4.8 0.119999V-0.380001H3.9069L4.37375 0.381366L4.8 0.119999ZM8.88 0.119999L9.30583 -0.14205L9.1594 -0.380001H8.88V0.119999ZM15.6 11.04L15.1742 11.302L15.6105 12.011L16.0314 11.2928L15.6 11.04ZM22 0.119999V-0.380001H21.7135L21.5686 -0.13282L22 0.119999ZM26.08 0.119999L26.5057 0.382252L26.9753 -0.380001H26.08V0.119999ZM17.0541 14.3419L25.6141 28.2619L26.4659 27.7381L17.9059 13.8181L17.0541 14.3419ZM26.04 27.5H21.92V28.5H26.04V27.5ZM22.3461 27.7384L15.6661 16.8584L14.8139 17.3816L21.4939 28.2616L22.3461 27.7384ZM14.8083 16.8677L8.44834 27.7477L9.31166 28.2523L15.6717 17.3723L14.8083 16.8677ZM8.88 27.5H4.84V28.5H8.88V27.5ZM5.26646 28.261L13.7865 14.341L12.9335 13.819L4.41354 27.739L5.26646 28.261ZM13.7862 13.8186L5.22625 -0.141368L4.37375 0.381366L12.9338 14.3414L13.7862 13.8186ZM4.8 0.619999H8.88V-0.380001H4.8V0.619999ZM8.45417 0.382048L15.1742 11.302L16.0258 10.778L9.30583 -0.14205L8.45417 0.382048ZM16.0314 11.2928L22.4314 0.372818L21.5686 -0.13282L15.1686 10.7872L16.0314 11.2928ZM22 0.619999H26.08V-0.380001H22V0.619999ZM25.6543 -0.142254L17.0543 13.8177L17.9057 14.3423L26.5057 0.382252L25.6543 -0.142254ZM56.4038 0.119999H56.9038V-0.380001H56.4038V0.119999ZM56.4038 28V28.5H56.9038V28H56.4038ZM52.7638 28H52.2638V28.5H52.7638V28ZM52.7638 15.36H53.2638V14.86H52.7638V15.36ZM38.5638 15.36V14.86H38.0638V15.36H38.5638ZM38.5638 28V28.5H39.0638V28H38.5638ZM34.9238 28H34.4238V28.5H34.9238V28ZM34.9238 0.119999V-0.380001H34.4238V0.119999H34.9238ZM38.5638 0.119999H39.0638V-0.380001H38.5638V0.119999ZM38.5638 12.36H38.0638V12.86H38.5638V12.36ZM52.7638 12.36V12.86H53.2638V12.36H52.7638ZM52.7638 0.119999V-0.380001H52.2638V0.119999H52.7638ZM55.9038 0.119999V28H56.9038V0.119999H55.9038ZM56.4038 27.5H52.7638V28.5H56.4038V27.5ZM53.2638 28V15.36H52.2638V28H53.2638ZM52.7638 14.86H38.5638V15.86H52.7638V14.86ZM38.0638 15.36V28H39.0638V15.36H38.0638ZM38.5638 27.5H34.9238V28.5H38.5638V27.5ZM35.4238 28V0.119999H34.4238V28H35.4238ZM34.9238 0.619999H38.5638V-0.380001H34.9238V0.619999ZM38.0638 0.119999V12.36H39.0638V0.119999H38.0638ZM38.5638 12.86H52.7638V11.86H38.5638V12.86ZM53.2638 12.36V0.119999H52.2638V12.36H53.2638ZM52.7638 0.619999H56.4038V-0.380001H52.7638V0.619999ZM83.0991 21.8L83.5693 21.6301L83.4501 21.3H83.0991V21.8ZM70.9391 21.8V21.3H70.5881L70.4688 21.6301L70.9391 21.8ZM68.6991 28V28.5H69.05L69.1693 28.1699L68.6991 28ZM64.8591 28L64.3892 27.8291L64.1452 28.5H64.8591V28ZM74.9391 0.279999V-0.220001H74.5888L74.4692 0.109128L74.9391 0.279999ZM79.1391 0.279999L79.6092 0.109727L79.4898 -0.220001H79.1391V0.279999ZM89.1791 28V28.5H89.8919L89.6492 27.8297L89.1791 28ZM85.3391 28L84.8688 28.1699L84.9881 28.5H85.3391V28ZM82.0591 18.84V19.34H82.7691L82.5298 18.6715L82.0591 18.84ZM77.0191 4.76L77.4898 4.59149L77.0191 3.27638L76.5483 4.59149L77.0191 4.76ZM71.9791 18.84L71.5083 18.6715L71.269 19.34H71.9791V18.84ZM83.0991 21.3H70.9391V22.3H83.0991V21.3ZM70.4688 21.6301L68.2288 27.8301L69.1693 28.1699L71.4093 21.9699L70.4688 21.6301ZM68.6991 27.5H64.8591V28.5H68.6991V27.5ZM65.329 28.1709L75.409 0.450871L74.4692 0.109128L64.3892 27.8291L65.329 28.1709ZM74.9391 0.779999H79.1391V-0.220001H74.9391V0.779999ZM78.6689 0.450272L88.7089 28.1703L89.6492 27.8297L79.6092 0.109727L78.6689 0.450272ZM89.1791 27.5H85.3391V28.5H89.1791V27.5ZM85.8093 27.8301L83.5693 21.6301L82.6288 21.9699L84.8688 28.1699L85.8093 27.8301ZM82.5298 18.6715L77.4898 4.59149L76.5483 4.92851L81.5883 19.0085L82.5298 18.6715ZM76.5483 4.59149L71.5083 18.6715L72.4498 19.0085L77.4898 4.92851L76.5483 4.59149ZM71.9791 19.34H82.0591V18.34H71.9791V19.34ZM119.492 28V28.5H119.992V28H119.492ZM115.852 28L115.435 28.2753L115.583 28.5H115.852V28ZM101.212 5.8L101.63 5.52474L100.712 4.13358V5.8H101.212ZM101.212 28V28.5H101.712V28H101.212ZM97.5722 28H97.0722V28.5H97.5722V28ZM97.5722 0.0799994V-0.420001H97.0722V0.0799994H97.5722ZM101.212 0.0799994L101.629 -0.19561L101.481 -0.420001H101.212V0.0799994ZM115.852 22.24L115.435 22.5156L116.352 23.9039V22.24H115.852ZM115.852 0.0799994V-0.420001H115.352V0.0799994H115.852ZM119.492 0.0799994H119.992V-0.420001H119.492V0.0799994ZM119.492 27.5H115.852V28.5H119.492V27.5ZM116.27 27.7247L101.63 5.52474L100.795 6.07526L115.435 28.2753L116.27 27.7247ZM100.712 5.8V28H101.712V5.8H100.712ZM101.212 27.5H97.5722V28.5H101.212V27.5ZM98.0722 28V0.0799994H97.0722V28H98.0722ZM97.5722 0.579999H101.212V-0.420001H97.5722V0.579999ZM100.795 0.355609L115.435 22.5156L116.269 21.9644L101.629 -0.19561L100.795 0.355609ZM116.352 22.24V0.0799994H115.352V22.24H116.352ZM115.852 0.579999H119.492V-0.420001H115.852V0.579999ZM118.992 0.0799994V28H119.992V0.0799994H118.992ZM146.857 0.119999H147.357V-0.380001H146.857V0.119999ZM146.857 3.08V3.58H147.357V3.08H146.857ZM139.257 3.08V2.58H138.757V3.08H139.257ZM139.257 28V28.5H139.757V28H139.257ZM135.617 28H135.117V28.5H135.617V28ZM135.617 3.08H136.117V2.58H135.617V3.08ZM127.977 3.08H127.477V3.58H127.977V3.08ZM127.977 0.119999V-0.380001H127.477V0.119999H127.977ZM146.357 0.119999V3.08H147.357V0.119999H146.357ZM146.857 2.58H139.257V3.58H146.857V2.58ZM138.757 3.08V28H139.757V3.08H138.757ZM139.257 27.5H135.617V28.5H139.257V27.5ZM136.117 28V3.08H135.117V28H136.117ZM135.617 2.58H127.977V3.58H135.617V2.58ZM128.477 3.08V0.119999H127.477V3.08H128.477ZM127.977 0.619999H146.857V-0.380001H127.977V0.619999ZM158.978 0.119999H159.478V-0.380001H158.978V0.119999ZM158.978 28V28.5H159.478V28H158.978ZM155.338 28H154.838V28.5H155.338V28ZM155.338 0.119999V-0.380001H154.838V0.119999H155.338ZM158.478 0.119999V28H159.478V0.119999H158.478ZM158.978 27.5H155.338V28.5H158.978V27.5ZM155.838 28V0.119999H154.838V28H155.838ZM155.338 0.619999H158.978V-0.380001H155.338V0.619999ZM212.126 0.319999H212.626V-0.180001H212.126V0.319999ZM212.126 28V28.5H212.626V28H212.126ZM208.486 28H207.986V28.5H208.486V28ZM208.486 7.36H208.986L208.029 7.15644L208.486 7.36ZM199.286 28V28.5H199.61L199.742 28.2036L199.286 28ZM196.726 28L196.269 28.204L196.401 28.5H196.726V28ZM187.486 7.32L187.942 7.11603L186.986 7.32H187.486ZM187.486 28V28.5H187.986V28H187.486ZM183.846 28H183.346V28.5H183.846V28ZM183.846 0.319999V-0.180001H183.346V0.319999H183.846ZM187.766 0.319999L188.222 0.115746L188.09 -0.180001H187.766V0.319999ZM198.006 23.2L197.549 23.4043L198.006 24.424L198.462 23.4043L198.006 23.2ZM208.246 0.319999V-0.180001H207.922L207.789 0.115746L208.246 0.319999ZM211.626 0.319999V28H212.626V0.319999H211.626ZM212.126 27.5H208.486V28.5H212.126V27.5ZM208.986 28V7.36H207.986V28H208.986ZM208.029 7.15644L198.829 27.7964L199.742 28.2036L208.942 7.56356L208.029 7.15644ZM199.286 27.5H196.726V28.5H199.286V27.5ZM197.182 27.796L187.942 7.11603L187.029 7.52397L196.269 28.204L197.182 27.796ZM186.986 7.32V28H187.986V7.32H186.986ZM187.486 27.5H183.846V28.5H187.486V27.5ZM184.346 28V0.319999H183.346V28H184.346ZM183.846 0.819999H187.766V-0.180001H183.846V0.819999ZM187.309 0.524252L197.549 23.4043L198.462 22.9957L188.222 0.115746L187.309 0.524252ZM198.462 23.4043L208.702 0.524252L207.789 0.115746L197.549 22.9957L198.462 23.4043ZM208.246 0.819999H212.126V-0.180001H208.246V0.819999ZM238.539 14.08L238.886 14.4396L238.886 14.4395L238.539 14.08ZM225.939 16.36V15.86H225.439V16.36H225.939ZM225.939 28V28.5H226.439V28H225.939ZM222.299 28H221.799V28.5H222.299V28ZM222.299 0.119999V-0.380001H221.799V0.119999H222.299ZM238.459 2.4L238.117 2.76534L238.12 2.76808L238.459 2.4ZM235.779 12.04L236.117 12.4086L236.117 12.4086L235.779 12.04ZM225.939 3.12V2.62H225.439V3.12H225.939ZM225.939 13.36H225.439V13.86H225.939V13.36ZM240.439 8.28C240.439 10.4709 239.689 12.2724 238.191 13.7205L238.886 14.4395C240.588 12.7942 241.439 10.7291 241.439 8.28H240.439ZM238.191 13.7204C236.748 15.1148 234.485 15.86 231.299 15.86V16.86C234.619 16.86 237.183 16.0852 238.886 14.4396L238.191 13.7204ZM231.299 15.86H225.939V16.86H231.299V15.86ZM225.439 16.36V28H226.439V16.36H225.439ZM225.939 27.5H222.299V28.5H225.939V27.5ZM222.799 28V0.119999H221.799V28H222.799ZM222.299 0.619999H231.299V-0.380001H222.299V0.619999ZM231.299 0.619999C234.371 0.619999 236.616 1.36203 238.117 2.76533L238.8 2.03467C237.049 0.397967 234.52 -0.380001 231.299 -0.380001V0.619999ZM238.12 2.76808C239.663 4.18634 240.439 6.00912 240.439 8.28H241.439C241.439 5.75088 240.561 3.65366 238.797 2.03191L238.12 2.76808ZM231.299 13.86C233.384 13.86 235.025 13.4094 236.117 12.4086L235.441 11.6714C234.613 12.4306 233.267 12.86 231.299 12.86V13.86ZM236.117 12.4086C237.205 11.4112 237.719 10.0094 237.719 8.28H236.719C236.719 9.80391 236.273 10.9087 235.441 11.6714L236.117 12.4086ZM237.719 8.28C237.719 6.46369 237.195 5.01569 236.067 4.03308C234.953 3.06192 233.334 2.62 231.299 2.62V3.62C233.211 3.62 234.551 4.03808 235.41 4.78692C236.256 5.52431 236.719 6.65631 236.719 8.28H237.719ZM231.299 2.62H225.939V3.62H231.299V2.62ZM225.439 3.12V13.36H226.439V3.12H225.439ZM225.939 13.86H231.299V12.86H225.939V13.86ZM253.023 0.119999H253.523V-0.380001H253.023V0.119999ZM254.823 23.28L254.469 23.6336L254.473 23.6374L254.823 23.28ZM264.903 23.28L264.553 22.9226L264.549 22.9264L264.903 23.28ZM266.743 0.119999V-0.380001H266.243V0.119999H266.743ZM270.383 0.119999H270.883V-0.380001H270.383V0.119999ZM268.983 23.6L269.413 23.8551L269.415 23.8519L268.983 23.6ZM265.183 27.12L264.965 26.6698L264.962 26.6713L265.183 27.12ZM254.503 27.12L254.282 27.5687L254.285 27.5702L254.503 27.12ZM250.743 23.6L250.308 23.8466L250.313 23.8551L250.743 23.6ZM249.383 0.119999V-0.380001H248.883V0.119999H249.383ZM252.523 0.119999V17.76H253.523V0.119999H252.523ZM252.523 17.76C252.523 20.3115 253.14 22.304 254.469 23.6336L255.176 22.9264C254.106 21.856 253.523 20.1685 253.523 17.76H252.523ZM254.473 23.6374C255.816 24.951 257.648 25.58 259.903 25.58V24.58C257.838 24.58 256.283 24.009 255.172 22.9226L254.473 23.6374ZM259.903 25.58C262.133 25.58 263.94 24.95 265.256 23.6336L264.549 22.9264C263.466 24.01 261.939 24.58 259.903 24.58V25.58ZM265.252 23.6374C266.611 22.3082 267.243 20.3143 267.243 17.76H266.243C266.243 20.1657 265.648 21.8518 264.553 22.9226L265.252 23.6374ZM267.243 17.76V0.119999H266.243V17.76H267.243ZM266.743 0.619999H270.383V-0.380001H266.743V0.619999ZM269.883 0.119999V17.72H270.883V0.119999H269.883ZM269.883 17.72C269.883 19.9736 269.43 21.8416 268.551 23.3481L269.415 23.8519C270.403 22.1584 270.883 20.1064 270.883 17.72H269.883ZM268.553 23.3449C267.668 24.8364 266.474 25.9406 264.965 26.6698L265.4 27.5702C267.092 26.7528 268.431 25.5103 269.413 23.8551L268.553 23.3449ZM264.962 26.6713C263.466 27.4069 261.769 27.78 259.863 27.78V28.78C261.903 28.78 263.753 28.3798 265.403 27.5687L264.962 26.6713ZM259.863 27.78C257.956 27.78 256.245 27.4069 254.72 26.6698L254.285 27.5702C255.96 28.3798 257.823 28.78 259.863 28.78V27.78ZM254.723 26.6713C253.241 25.9427 252.059 24.8385 251.173 23.3449L250.313 23.8551C251.293 25.5081 252.618 26.7506 254.282 27.5687L254.723 26.6713ZM251.178 23.3535C250.324 21.8459 249.883 19.9758 249.883 17.72H248.883C248.883 20.1042 249.349 22.1541 250.308 23.8465L251.178 23.3535ZM249.883 17.72V0.119999H248.883V17.72H249.883ZM249.383 0.619999H253.023V-0.380001H249.383V0.619999Z"
+                      fill="white"
+                    />
+                  </g>
+                  <defs>
+                    <filter
+                      id="filter0_d_1_4"
+                      x="0.800003"
+                      y="0.0800018"
+                      width="273.583"
+                      height="36.2"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feColorMatrix
+                        in="SourceAlpha"
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                      />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="out" />
+                      <feColorMatrix
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in2="BackgroundImageFix"
+                        result="effect1_dropShadow_1_4"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="effect1_dropShadow_1_4"
+                        result="shape"
+                      />
+                    </filter>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <span class="section-underline text-light"></span>
+        </div>
+        <!-- Nav -->
+        <!-- Button  -->
+        <button
+          class="btn"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+          style="position: fixed; top: 20px; right: 40px"
+        >
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </button>
+        <!-- Collapsible Navbar  -->
+        <div class="collapse w-50" id="collapseExample">
+          <nav class="nav flex-column menu">
+            <div>
+              <h4 class="menu-title">Menu</h4>
+            </div>
+            <a class="nav-link active" aria-current="page" href="#introduction"
+              ><i class="fa-solid fa-location-dot menu-icon"></i>Home</a
+            >
+            <a class="nav-link" href="#about"
+              ><i class="fa-solid fa-user menu-icon"></i>About</a
+            >
+            <a class="nav-link" href="#achievements"
+              ><i class="fa-solid fa-shield menu-icon"></i>Achievements</a
+            >
+            <a class="nav-link" href="#services"
+              ><i class="fa-solid fa-handshake-angle menu-icon"></i>Services</a
+            >
+            <a class="nav-link" href="#resume"
+              ><i class="fa-solid fa-align-left menu-icon"></i>Resume</a
+            >
+            <a class="nav-link" href="#skills"
+              ><i class="fa-solid fa-gears menu-icon"></i>Skills</a
+            >
+            <a class="nav-link" href="#portfolio"
+              ><i class="fa-solid fa-folder-open menu-icon"></i>Portfolio</a
+            >
+            <a class="nav-link" href="#testimonials"
+              ><i class="fa-solid fa-comment menu-icon"></i>Testimonials</a
+            >
+            <a class="nav-link" href="#contact"
+              ><i class="fa-solid fa-comments menu-icon"></i>Contact</a
+            >
+            <div id="menu-socials">
+              <div>
+                <h4 class="menu-title mt-4">Social</h4>
+              </div>
+              <div
+                class="d-flex justify-content-between w-75 menu-social-icons"
+              >
+                <a href="https://za.linkedin.com/" target="_blank"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/Xhanticode" target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a href="https://codepen.io/xhanticode" target="_blank"
+                  ><i class="fa-brands fa-codepen"></i
+                ></a>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="section-content"></div>
+      </section>
+
+      <!-- About  -->
+      <section class="about w-1oovh" id="about">
+        <div class="section-head">
+          <h3 class="section-title">About</h3>
+          <h2 class="section-subtitle">
+            My approach to building the tech brands of tomorrow.
+          </h2>
+          <span class="section-underline"></span>
+          <p>
+            My approach to web development is to give much strength to the skin
+            and muscle as I do the skeleton.
+          </p>
+          <p>“Hang on a minute, what in the…?”</p>
+          <p>
+            Well, it is said that design is the skin, functionality, the muscle
+            and code, the skeleton of this exciting body of web development. I
+            am an inventive, and highly creative web developer with a keen
+            interest in designing and coding websites and applications that meet
+            both the UI & UX as well as the development needs of clients and
+            users.
+          </p>
+        </div>
+        <div class="section-content"></div>
+      </section>
+
+      <!-- Achievements  -->
+      <section class="achievements w-1oovh" id="achievements">
+        <div class="section-head">
+          <h3 class="section-title">Achievements</h3>
+          <h2 class="section-subtitle">
+            Acceleration: A rapid increase in valuation and standards.
+          </h2>
+          <span class="section-underline text-light"></span>
+          <p>
+            Over the past year, since the beginning of my fun and rewarding
+            journey as an aspiring full stack developer, I have achieved the
+            following:
+          </p>
+        </div>
+        <div class="section-content achievements-content">
+          <div class="achievement rounded-circle" id="awards">
+            <p>Awards</p>
+          </div>
+          <div class="achievement rounded-circle" id="projects">
+            <p>Projects</p>
+          </div>
+          <div class="achievement rounded-circle" id="apps"><p>Apps</p></div>
+        </div>
+      </section>
+
+      <!-- Services  -->
+      <section class="services w-1oovh" id="services">
+        <div class="section-head">
+          <h3 class="section-title">Services</h3>
+          <h2 class="section-subtitle">What I can do.</h2>
+          <span class="section-underline"></span>
+          <p>
+            I am a creative designer, web developer and marketing guru for
+            private and corporate clients.
+          </p>
+        </div>
+        <div class="section-content">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Design
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Design is at the core of web development, without which it
+                    is impossible to meet user satisfaction and maintain traffic
+                    to your website. My conversance in web design: adobe
+                    illustrator, adobe photoshop, adobe xd, and colour theory is
+                    why I am confident in my ability to exceed your
+                    expectations.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Development
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    I am proficient in html, css, bootstrap, basic java script
+                    and Wordpress. I develop agile and robust code using the
+                    most modern programming languages and tools.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Marketing
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    See, even the most elegantly designed sites do not just get
+                    traffic without (you guessed it!) marketing. The last step
+                    and not in anyway the least in the development process is
+                    marketing - that product or service better sell - and I sure
+                    wanna be a part. I assist in conducting market research,
+                    promotion, product design and development in order to create
+                    awareness about and drive traffic to your website and
+                    offering.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resume  -->
+      <section class="resume w-1oovh" id="resume">
+        <div class="section-head">
+          <h3 class="section-title">Resume</h3>
+          <h2 class="section-subtitle">Experience</h2>
+          <span class="section-underline"></span>
+          <p>
+            Click
+            <a id="cv-link" href="./PDF's/Xabiso Xhanti Mpu CV.pdf">here</a> to
+            dowloaded my resumé.
+          </p>
+          <!-- timeline -->
+        </div>
+        <div class="section-content" id="resume-body">
+          <div class="entries">
+            <div class="entry">
+              <div class="title">2013</div>
+              <div class="body">
+                <p>
+                  I matriculated grade 12 with an A aggregate. View my
+                  certificate <a href="">here</a>.
+                </p>
+              </div>
+            </div>
+            <div class="entry">
+              <div class="title">2014</div>
+              <div class="body">
+                <p>
+                  Enrolled for MBChB at the prestigious University of Cape Town,
+                  which I quit a year later, realising my passion lay in
+                  business and entrepreneurship.
+                </p>
+              </div>
+            </div>
+            <div class="entry">
+              <div class="title big">2015</div>
+              <div class="body">
+                <p>
+                  Studied Bachelor of Commerce (specialising in accounting) at
+                  the University of Cape Town.
+                </p>
+              </div>
+            </div>
+            <div class="entry">
+              <div class="title">2018</div>
+              <div class="body">
+                <p>
+                  Founded my first business called Xhanti Lifestyle Consortium.
+                  The venture sought to introduce luxury around Afro-centric
+                  ideas. The subsidiaries would include a clothing brand,
+                  cosmetic line, eatery, etc.
+                </p>
+              </div>
+            </div>
+            <div class="entry">
+              <div class="title">2019</div>
+              <div class="body">
+                <p>
+                  I took fashion design courses at LISOF in order to be an asset
+                  in my clothing business.
+                </p>
+                <p>
+                  I simultaneously enrolled for BCom Law at the University of
+                  South Africa.
+                </p>
+              </div>
+            </div>
+            <div class="entry">
+              <div class="title big">2022</div>
+              <div class="body">
+                <p>I completed my BCom Law degree.</p>
+                <p>
+                  I debuted SA Menswear, marking my first fashion showcase ever.
+                </p>
+                <p>
+                  I completed a 6 month Full Stack Web Developer course with
+                  Life Choices...
+                </p>
+              </div>
+            </div>
+            <!-- <div class="entry">
+              <div class="title">2022</div>
+              <div class="body">
+                <p>I completed a 6 month Full Stack Web Developer course with Life Choices...</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills  -->
+      <section class="skills w-1oovh" id="skills">
+        <div class="section-head">
+          <h3 class="section-title">Skills</h3>
+          <h2 class="section-subtitle">
+            Skills I have collected over the years.
+          </h2>
+          <span class="section-underline"></span>
+          <p>
+            As a creative developer, I am proficient in the following skills:
+          </p>
+        </div>
+        <div class="section-content">
+          <!-- Skills Bar -->
+          <h4
+            class="progress-bar-label"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="85%"
+          >
+            HTML
+          </h4>
+          <div
+            class="progress progress-bar my-4"
+            role="progressbar"
+            style="width: 85%"
+            aria-valuenow="85"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="85%"
+          ></div>
+          <h4
+            class="progress-bar-label"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="80%"
+          >
+            CSS
+          </h4>
+          <div
+            class="progress progress-bar my-4"
+            role="progressbar"
+            style="width: 80%"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="80%"
+          ></div>
+          <h4
+            class="progress-bar-label"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="90%"
+          >
+            bootstrap
+          </h4>
+          <div
+            class="progress progress-bar my-4"
+            role="progressbar"
+            style="width: 90%"
+            aria-valuenow="90"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="90%"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Portfolio  -->
+      <section class="portfolio w-1oovh" id="portfolio">
+        <div class="section-head">
+          <h3 class="section-title">Portfolio</h3>
+          <h2 class="section-subtitle">Selected Work</h2>
+          <span class="section-underline"></span>
+          <p>Bet you wanna see some the stuff I am boasting about?</p>
+        </div>
+        <div class="section-content">
+          <!-- Restaurantly Modal  -->
+          <!-- Button trigger modal -->
+          <img
+            class="portfolio-image"
+            data-bs-toggle="modal"
+            data-bs-target="#Restaurantly"
+            src="../../images/Restaurantly-Site.png"
+            alt="Restaurantly site"
+          />
+
+          <!-- Mock Portfolio Modal  -->
+          <!-- Button trigger modal -->
+          <img
+            class="portfolio-image mt-4"
+            data-bs-toggle="modal"
+            data-bs-target="#MockPortfolio"
+            src="../../images/Mock-Portfolio-Site.png"
+            alt="Mock Portfolio Site"
+          />
+        </div>
+      </section>
+
+      <!-- Testimonials  -->
+      <section class="testimonials w-1oovh" id="testimonials">
+        <div class="section-head">
+          <h3 class="section-title">Testimonials</h3>
+          <h2 class="section-subtitle">
+            What my customers are saying about me.
+          </h2>
+          <span class="section-underline"></span>
+        </div>
+        <div class="section-content">
+          <div
+            id="testimonial-carousel"
+            class="carousel slide carousel-dark"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#testimonial-carousel"
+                data-bs-slide-to="0"
+                class="active rounded-circle carousel-scroll-button"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#testimonial-carousel"
+                data-bs-slide-to="1"
+                class="rounded-circle carousel-scroll-button"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#testimonial-carousel"
+                data-bs-slide-to="2"
+                class="rounded-circle carousel-scroll-button"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div
+                class="carousel-item carousel-item-1 pb-5 text-center active"
+                data-bs-interval="3000"
+              >
+                <div>
+                  <img
+                    src="../../images/Mr-Foures.jpg"
+                    class="rounded-circle mb-5 testimonial-image"
+                    alt="Carla image"
+                    style="width: 100px; height: 100px"
+                  />
+                </div>
+                <div class="carousel-caption mt-2">
+                  <!-- <h5>Carla</h5> -->
+                  <p class="mt-4">
+                    "Very professional guy, I was so satisfied with the
+                    service."
+                  </p>
+                </div>
+              </div>
+              <div
+                class="carousel-item carousel-item-2 pb-5 text-center"
+                data-bs-interval="2000"
+              >
+                <div>
+                  <img
+                    src="../../images/Zana.jpg"
+                    class="rounded-circle mb-5 testimonial-image"
+                    alt="Live image"
+                    width="100px"
+                    height="100px"
+                  />
+                </div>
+                <div class="carousel-caption mt-2">
+                  <!-- <h5>Live</h5> -->
+                  <p class="mt-4">
+                    "Omg! He is the most creative guy I have worked with."
+                  </p>
+                </div>
+              </div>
+              <div
+                class="carousel-item carousel-item-3 pb-5 text-center"
+                data-bs-interval="1000"
+              >
+                <div>
+                  <img
+                    src="../../images/Kgosi.jpg"
+                    class="rounded-circle mb-5 testimonial-image"
+                    alt="Josh image"
+                    width="100px"
+                    height="100px"
+                  />
+                </div>
+                <div class="carousel-caption mt-2">
+                  <!-- <h5>Joshua</h5> -->
+                  <p class="mt-4">"Four words, got my money's worth!"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact  -->
+      <section class="contact w-1oovh" id="contact">
+        <div class="section-head">
+          <h3 class="section-title">Contact</h3>
+          <h2 class="section-subtitle">Let's get in touch.</h2>
+          <span class="section-underline"></span>
+          <p>Fill out my form below and pop me an email.</p>
+        </div>
+        <div class="section-content">
+          <!-- Contact form  -->
+          <div id="contact-form">
+            <form action="https://formspree.io/f/mzboyeon" method="post">
+              <div class="mb-3">
+                <label for="name" class="form-label"><h4>Name*</h4></label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label"><h4>Email*</h4></label>
+                <input type="text" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label"><h4>Phone</h4></label>
+                <input type="text" class="form-control" id="phone" />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label"
+                  ><h4>Message*</h4></label
+                >
+                <textarea
+                  name="message"
+                  id="message"
+                  class="form-control"
+                  required
+                ></textarea>
+              </div>
+              <div class="mb-3 button-container">
+                <input type="submit" class="submit-button" value="Send" /><i
+                  class="fa-solid fa-paper-plane mx-2"
+                  style="font-size: 16px"
+                ></i>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="Restaurantly"
+    tabindex="-1"
+    aria-labelledby="RestaurantlyLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="RestaurantlyLabel">Restaurantly</h5>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        </div>
+        <div class="modal-body d-flex justify-content-around">
+          <img
+            src="../../images/Restaurantly-Site.png"
+            alt="Restaurantly site"
+            style="width: auto; height: 300px"
+          />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn">
+            <a
+              href="https://ephemeral-hamster-c1068a.netlify.app/"
+              target="_blank"
+              ><i class="fa-solid fa-circle-info"></i
+            ></a>
+          </button>
+          <button type="button" class="btn">
+            <a href="https://github.com/Xhanticode/Restaurant" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </button>
+          <button
+            type="button"
+            class="btn"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="MockPortfolio"
+    tabindex="-1"
+    aria-labelledby="MockPortfolioModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="MockPortfolioModalLabel">Restaurantly</h5>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        </div>
+        <div class="modal-body d-flex justify-content-around">
+          <img
+            src="../../images/Mock-Portfolio-Site.png"
+            alt="Mock Portfolio Site"
+            style="width: auto; height: 300px"
+          />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn">
+            <a
+              href="https://helpful-mandazi-172bca.netlify.app/"
+              target="_blank"
+              ><i class="fa-solid fa-circle-info"></i
+            ></a>
+          </button>
+          <button type="button" class="btn">
+            <a
+              href="https://github.com/Xhanticode/Personal-Portfolio"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </button>
+          <button
+            type="button"
+            class="btn"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+
+const logo = document.querySelectorAll("#landing-title path");
+
+for (let i = 0; i < logo.length; i++)
+  console.log(`letter ${i} is ${logo[i].getTotalLength()}`);
+</script>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 2.1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  color: #f7f4f3;
+}
+h2 {
+  font-size: 20px !important;
+  letter-spacing: -0.005em;
+  line-height: 1.1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f7f4f3;
+  padding: 20px;
+}
+h3 {
+  color: #f7f4f3;
+  text-align: start;
+  font-size: 10px !important;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  padding: 20px;
+  letter-spacing: 0.15rem;
+}
+h4 {
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f7f4f3;
+  text-transform: capitalize;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+p {
+  font-size: 16px;
+  line-height: 1.4rem;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #7c7c7c;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 20px;
+}
+
+/* introduction  */
+.introduction {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#image-title {
+  z-index: 2;
+  position: absolute;
+  margin-right: 200px;
+  margin-top: 300px;
+  padding-bottom: 10px;
+  font-size: 14px !important;
+  border-bottom: solid 1px #f7f4f3;
+}
+#landing-title {
+  font-size: 26px !important;
+  line-height: 1em;
+  font-weight: 200;
+  color: #f7f4f3;
+}
+.flip-card {
+  perspective: 1000px;
+  height: 3em;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateX(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  background-color: #060607;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-back {
+  transform: rotateX(180deg);
+}
+#landing-title path:nth-child(1) {
+  stroke-dasharray: 141.26;
+  stroke-dashoffset: 141.26;
+  animation: line-animation 2s ease forwards;
+}
+#landing-title path:nth-child(2) {
+  stroke-dasharray: 152.51;
+  stroke-dashoffset: 152.51;
+  animation: line-animation 2s ease forwards 0.2s;
+}
+#landing-title path:nth-child(3) {
+  stroke-dasharray: 128.88;
+  stroke-dashoffset: 128.88;
+  animation: line-animation 2s ease forwards 0.4s;
+}
+#landing-title path:nth-child(4) {
+  stroke-dasharray: 136.19;
+  stroke-dashoffset: 136.19;
+  animation: line-animation 2s ease forwards 0.6s;
+}
+#landing-title path:nth-child(5) {
+  stroke-dasharray: 93.51;
+  stroke-dashoffset: 93.51;
+  animation: line-animation 2s ease forwards 0.8s;
+}
+#landing-title path:nth-child(6) {
+  stroke-dasharray: 63.03;
+  stroke-dashoffset: 63.03;
+  animation: line-animation 2s ease forwards 1s;
+}
+#landing-title path:nth-child(7) {
+  stroke-dasharray: 122.69;
+  stroke-dashoffset: 122.69;
+  animation: line-animation 2s ease forwards 1.2s;
+}
+#landing-title path:nth-child(8) {
+  stroke-dasharray: 128.88;
+  stroke-dashoffset: 128.88;
+  animation: line-animation 2s ease forwards 1.4s;
+}
+#landing-title path:nth-child(9) {
+  stroke-dasharray: 222.53;
+  stroke-dashoffset: 222.53;
+  animation: line-animation 2s ease forwards 1.6s;
+}
+#landing-title path:nth-child(10) {
+  stroke-dasharray: 128.87;
+  stroke-dashoffset: 128.87;
+  animation: line-animation 2s ease forwards 1.8s;
+}
+#landing-title path:nth-child(11) {
+  stroke-dasharray: 169.50;
+  stroke-dashoffset: 169.50;
+  animation: line-animation 2s ease forwards 2s;
+}
+#landing-title path:nth-child(12) {
+  stroke-dasharray: 158.77;
+  stroke-dashoffset: 158.77;
+  animation: line-animation 2s ease forwards 2.2s;
+}
+#landing-title path:nth-child(13) {
+  stroke-dasharray: 128.88;
+  stroke-dashoffset: 128.88;
+  animation: line-animation 2s ease forwards 2.4s;
+}
+#landing-title path:nth-child(14) {
+  stroke-dasharray: 122.69;
+  stroke-dashoffset: 122.69;
+  animation: line-animation 2s ease forwards 2.6s;
+}
+#landing-title path:nth-child(15) {
+  stroke-dasharray: 128.88;
+  stroke-dashoffset: 128.88;
+  animation: line-animation 2s ease forwards 2.8s;
+}
+#landing-title path:nth-child(16) {
+  stroke-dasharray: 82.56;
+  stroke-dashoffset: 82.56;
+  animation: line-animation 2s ease forwards 3s;
+}
+#landing-title path:nth-child(17) {
+  stroke-dasharray: 157.20;
+  stroke-dashoffset: 157.20;
+  animation: line-animation 2s ease forwards 3.2s;
+}
+#landing-title path:nth-child(18) {
+  stroke-dasharray: 124.92;
+  stroke-dashoffset: 124.92;
+  animation: line-animation 2s ease forwards 3.4s;
+}
+#landing-title path:nth-child(19) {
+  stroke-dasharray: 128.87;
+  stroke-dashoffset: 128.87;
+  animation: line-animation 2s ease forwards 3.6s;
+}
+#landing-title path:nth-child(20) {
+  stroke-dasharray: 152.51;
+  stroke-dashoffset: 152.51;
+  animation: line-animation 2s ease forwards 3.8s;
+}
+#landing-title path:nth-child(21) {
+  stroke-dasharray: 173.71;
+  stroke-dashoffset: 173.71;
+  animation: line-animation 2s ease forwards 3.8s;
+}
+#landing-title path:nth-child(22) {
+  stroke-dasharray: 158.77;
+  stroke-dashoffset: 158.77;
+  animation: line-animation 2s ease forwards 3.8s;
+}
+#landing-title path:nth-child(23) {
+  stroke-dasharray: 128.88;
+  stroke-dashoffset: 128.88;
+  animation: line-animation 2s ease forwards 3.8s;
+}
+#landing-title path:nth-child(24) {
+  stroke-dasharray: 137.19;
+  stroke-dashoffset: 137.19;
+  animation: line-animation 2s ease forwards 3.8s;
+}
+#landing-title path:nth-child(25) {
+  stroke-dasharray: 63.04;
+  stroke-dashoffset: 63.04;
+  animation: line-animation 2s ease forwards 3.8s;
+}
+#landing-title path:nth-child(26) {
+  stroke-dasharray: 176.58;
+  stroke-dashoffset: 176.58;
+  animation: line-animation 2s ease forwards 3.8s;
+}
+#landing-title path:nth-child(27) {
+  stroke-dasharray: 167.91;
+  stroke-dashoffset: 167.91;
+  animation: line-animation 2s ease forwards 3.8s;
+}
+#landing-title path:nth-child(28) {
+  stroke-dasharray: 128.87;
+  stroke-dashoffset: 128.87;
+  animation: line-animation 2s ease forwards 3.8s;
+}
+#landing-title path:nth-child(29) {
+  stroke-dasharray: 152.51;
+  stroke-dashoffset: 152.51;
+  animation: line-animation 2s ease forwards 3.8s;
+}
+@keyframes line-animation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #ffffff;
+    fill: -moz-linear-gradient(left, #ffffff 0%, #ffffff 0%, #000000 100%);
+    fill: -webkit-linear-gradient(left, #ffffff 0%, #ffffff 0%, #000000 100%);
+    fill: linear-gradient(to right, #ffffff 0%, #ffffff 0%, #000000 100%);
+  }
+}
+
+/* Navigation Bar  */
+.menu-title {
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: #7c7c7c;
+  margin-bottom: 20px;
+}
+.btn:focus {
+  box-shadow: none;
+  font-weight: bold;
+}
+.menu {
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-left: solid 0.5px #f7f4f3;
+  background-color: rgba(6, 6, 7, 0.9);
+  padding-inline: 10px;
+}
+.menu-icon {
+  margin-right: 15px;
+}
+.menu-social-icons {
+  font-size: 14px;
+}
+.menu-social-icons:hover {
+  font-size: 16px;
+}
+.nav-link {
+  color: #7c7c7c !important;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+}
+.nav-link:hover {
+  color: #c16200 !important;
+}
+i:hover {
+  color: #c16200 !important;
+}
+
+/* Scroll Content  */
+.scroll-content {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 1;
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Main Container  */
+.main-container {
+  background-color: #060607;
+  overflow: hidden;
+}
+section {
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+.section-head-1 {
+  width: 100%;
+}
+#landing-title {
+  width: 100%;
+}
+.section-underline {
+  border-bottom: solid 1px #f7f4f3;
+  width: 50px;
+  height: 1px;
+}
+
+/* Main Image  */
+.image-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 1;
+  transform: perspective(200px) rotateY(5deg);
+}
+.main-image {
+  width: 300px;
+  height: auto;
+}
+@keyframes heartbeat {
+  to {
+    top: 8%;
+    right: 4%;
+  }
+}
+.picture img:hover {
+  animation: heartbeat;
+  transition: 3s;
+}
+#frame-1 {
+  border: solid 1px #f7f4f3;
+  transform: translate(-0.4rem, 0.4rem);
+  z-index: -1;
+  position: absolute;
+  height: 533.328px;
+  width: 300px;
+  opacity: 0.25;
+}
+#frame-2 {
+  border: solid 1px #f7f4f3;
+  transform: translate(-0.8rem, 0.8rem);
+  z-index: -1;
+  position: absolute;
+  height: 533.328px;
+  width: 300px;
+  opacity: 0.15;
+}
+#frame-3 {
+  border: solid 1px #f7f4f3;
+  transform: translate(-1.2rem, 1.2rem);
+  z-index: -1;
+  position: absolute;
+  height: 533.328px;
+  width: 300px;
+  opacity: 0.05;
+}
+
+/* Section slide-up animation  */
+.about {
+  animation: slide-up 3s ease-in-out forwards;
+  animation-delay: calc(var(--scroll) * -1s);
+}
+@keyframes slide-up {
+  from {
+    margin-top: 80%;
+    opacity: 0;
+  }
+  to {
+    margin-top: -20%;
+    opacity: 1;
+  }
+}
+
+/* Achievements */
+@property --num {
+  syntax: "<integer>";
+  initial-value: 7;
+  inherits: false;
+}
+
+.achievement {
+  transition: --num 1s;
+  counter-set: num var(--num);
+  font: 800 26px system-ui;
+  width: fit-content;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.achievement::after {
+  content: counter(num);
+}
+#awards {
+  animation: awardsCounter 5s linear forwards;
+  animation-delay: 2s;
+}
+#projects {
+  animation: projectsCounter 5s linear forwards;
+  animation-delay: 2s;
+}
+#apps {
+  animation: appsCounter 5s linear forwards;
+  animation-delay: 2s;
+}
+
+@keyframes awardsCounter {
+  0% {
+    --num: 0;
+  }
+  100% {
+    --num: 8;
+  }
+}
+@keyframes projectsCounter {
+  0% {
+    --num: 0;
+  }
+  100% {
+    --num: 6;
+  }
+}
+@keyframes appsCounter {
+  0% {
+    --num: 0;
+  }
+  100% {
+    --num: 3;
+  }
+}
+
+.achievements-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Services */
+.accordion-item {
+  background-color: transparent;
+}
+.accordion-button {
+  background-color: transparent;
+  border-bottom: solid;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: #f7f4f3;
+  box-shadow: none;
+  border-bottom: solid 0.1px;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+
+/* Resume */
+a:link {
+  color: #c16200;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #7c7c7c;
+  background-color: transparent;
+  text-decoration: none;
+}
+#cv-link:hover {
+  font-size: 18px;
+}
+
+/* Portfolio/ */
+.modal-body {
+  background-color: transparent;
+}
+.modal-content {
+  background-color: transparent;
+  border: none;
+  justify-items: center;
+}
+.modal-header {
+  font-size: 20px !important;
+  letter-spacing: -0.005em;
+  line-height: 1.1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f7f4f3;
+}
+.portfolio-image {
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+}
+
+/* Testimonials */
+.testimonial-image {
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+#testimonial-carousel {
+  margin-top: 50px;
+}
+.carousel-caption p {
+  font-style: italic;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #f7f4f3;
+}
+.carousel-indicators [data-bs-target] {
+  width: 6px;
+  height: 6px;
+}
+.carousel-scroll-button:hover {
+  background-color: #c16200 !important;
+}
+
+/* Skills  */
+.progress-bar {
+  height: 2px;
+  margin-left: 20px;
+  background-color: #f7f4f3;
+}
+.progress-bar-label {
+  margin-left: 20px;
+  width: fit-content;
+}
+
+/* Contact */
+#contact-form {
+  margin-left: 20px;
+}
+.form-control {
+  border: none;
+  border-bottom: solid 0.1px #f7f4f3 !important;
+  background-color: transparent;
+  text-transform: capitalize;
+  border-radius: 0;
+}
+.form-control:focus {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+[type="submit"]:not(:disabled) {
+  background-color: transparent;
+  border: none;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f7f4f3;
+  font-size: 16px;
+}
+.form-label:hover {
+  color: #c16200 !important;
+}
+
+/* Media Queries  */
+@media screen and (max-width: 1200px) {
+  section {
+    margin-right: 0;
+    padding-inline: 40px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .image-box {
+    margin-left: 30%;
+    position: absolute;
+  }
+  #landing-title {
+    font-size: 22px !important;
+  }
+  .scroll-content {
+    width: 100vw;
+    background-color: rgba(6, 6, 7, 0.85);
+  }
+  .introduction {
+    justify-content: center;
+  }
+  .menu {
+    padding: 10px;
+    right: 5%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .image-box {
+    margin-left: 4%;
+  }
+  section {
+    margin-inline: 2%;
+    padding-inline: 0;
+  }
+}
+
+/* resume */
+.entry .title {
+  font: 800 26px system-ui;
+}
+#resume-body .entries {
+  width: calc(100% - 40px);
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  left: -5px;
+}
+#resume-body .entries .entry {
+  width: calc(50% - 40px);
+  float: left;
+  clear: both;
+  text-align: right;
+}
+#resume-body .entries .entry:not(:first-child) {
+  margin-top: -60px;
+}
+#resume-body .entries .entry .title {
+  margin-bottom: 12px;
+  position: relative;
+  color: #fff;
+}
+#resume-body .entries .entry .title:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -28px;
+  z-index: 1000;
+}
+#resume-body .entries .entry .title.big:before {
+  width: 14px;
+  height: 14px;
+  transform: translate(8px, -50%);
+}
+#resume-body .entries .entry .body {
+  color: #aaa;
+}
+#resume-body .entries .entry:nth-child(2n) {
+  text-align: left;
+  float: right;
+}
+#resume-body .entries .entry:nth-child(2n) .title:before {
+  left: -20px;
+}
+#resume-body .entries .entry:nth-child(2n) .title.big:before {
+  transform: translate(-8px, -50%);
+}
+#resume-body {
+  min-height: 120vh;
+  margin: 0;
+  position: relative;
+}
+#resume-body:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+  width: 1px;
+  background-color: #fff;
+}
+</style>
