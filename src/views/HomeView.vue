@@ -237,7 +237,7 @@
             </div>
           </div>
 
-          <span class="section-underline text-light"></span>
+          <!-- <button id="dark-mode-toggle">Dark mode</button> -->
         </div>
         <!-- Nav -->
         <!-- Button  -->
@@ -663,9 +663,12 @@
           <!-- Restaurantly Modal  -->
           <!-- Button trigger modal -->
           <div v-for="(project, index) in getprojects" :key="index">
-            <img class="portfolio-image"
-            data-bs-toggle="modal"
-            data-bs-target="#Restaurantly" :src="project.img">
+            <img
+              class="portfolio-image"
+              data-bs-toggle="modal"
+              data-bs-target="#Restaurantly"
+              :src="project.img"
+            />
           </div>
           <!-- <img
             class="portfolio-image"
@@ -848,8 +851,8 @@
   >
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="RestaurantlyLabel">Restaurantly</h5>
+        <div class="modal-header" v-for="(project, index) in getprojects" :key="index">
+          <h5 class="modal-title" id="RestaurantlyLabel">{{project.title}}</h5>
           <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
         </div>
         <div class="modal-body d-flex justify-content-around">
@@ -940,8 +943,8 @@
 export default {
   computed: {
     getprojects() {
-      return this.$store.state.projects
-    }
+      return this.$store.state.projects;
+    },
   },
   mounted() {
     const entries = document.querySelectorAll(".entry");
@@ -949,10 +952,7 @@ export default {
       observer.observe(entry);
     });
   },
-  methods() {
-
-    
-  },
+  methods() {},
 };
 const observer = new IntersectionObserver(
   (entries) => {
@@ -964,51 +964,11 @@ const observer = new IntersectionObserver(
     threshold: 1,
   }
 );
-const counterSection = document.querySelector(".achievement-content");
-function incCounter() {
-  const counters = document.querySelectorAll(".achievement");
-  const speed = 4; // The lower the slower
 
-  counters.forEach((counter) => {
-    const updateCount = () => {
-      const target = +counter.getAttribute("data-target");
-      const count = +counter.innerText;
 
-      // Lower inc to slow and higher to slow
-      const inc = target / speed;
+// darkmode
+// check for saved 'darkMode' in localStorage
 
-      // Check if target is reached
-      if (count < target) {
-        // Add inc to count and output in counter
-        counter.innerText = count + inc;
-        // Call function every ms
-        setTimeout(updateCount, 1);
-      } else {
-        counter.innerText = target;
-      }
-    };
-
-    updateCount();
-  });
-}
-
-const counterSectionOptions = {
-  rootMargin: "-200px 0px 0px 0px",
-};
-
-// const counterSectionObserver = new IntersectionObserver(function (
-//   entries, counterSectionObserver) {
-//   entries.forEach((entry) => {
-//     if (!entry.isIntersecting) {
-//       return;
-//     } else {
-//       incCounter();
-//     }
-//   });
-// },
-// counterSectionOptions);
-
-// counterSectionObserver.observe(counterSection);
 </script>
 <style>
 * {
@@ -1016,11 +976,19 @@ const counterSectionOptions = {
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --p-background-color: #060607;
+  --s-background-color: ;
+  --p-font: "Source Sans Pro", sans-serif;
+  --p-text-color: #f7f4f3;
+  --s-text-color: #7c7c7c;
+  --accent: #c16200;
+}
 body {
   font-size: 2.1rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: var(--p-font);
   font-weight: 300;
-  color: #f7f4f3;
+  color: var(--p-text-color);
 }
 h2 {
   font-size: 20px !important;
@@ -1029,24 +997,24 @@ h2 {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 300;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #f7f4f3;
+  font-family: var(--p-font);
+  color: var(--p-text-color);
   padding: 20px;
 }
 h3 {
-  color: #f7f4f3;
+  color: var(--p-text-color);
   text-align: start;
   font-size: 10px !important;
   font-weight: 700;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: var(--p-font);
   text-transform: uppercase;
   padding: 20px;
   letter-spacing: 0.15rem;
 }
 h4 {
   font-size: 16px;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #f7f4f3;
+  font-family: var(--p-font);
+  color: var(--p-text-color);
   text-transform: capitalize;
   line-height: 1.5rem;
   font-weight: 500;
@@ -1057,8 +1025,8 @@ p {
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 0;
-  color: #7c7c7c;
-  font-family: "Source Sans Pro", sans-serif;
+  color: var(--s-text-color);
+  font-family: var(--p-font);
   padding: 20px;
 }
 
@@ -1075,13 +1043,13 @@ p {
   margin-top: 300px;
   padding-bottom: 10px;
   font-size: 14px !important;
-  border-bottom: solid 1px #f7f4f3;
+  border-bottom: solid 1px var(--p-text-color);
 }
 #landing-title {
   font-size: 26px !important;
   line-height: 1em;
   font-weight: 200;
-  color: #f7f4f3;
+  color: var(--p-text-color);
 }
 .flip-card {
   perspective: 1000px;
@@ -1100,7 +1068,7 @@ p {
 .flip-card-front,
 .flip-card-back {
   position: absolute;
-  background-color: #060607;
+  /* background-color: var(--p-background-color); */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -1272,9 +1240,9 @@ p {
 /* Navigation Bar  */
 .menu-title {
   font-size: 16px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: var(--p-font);
   font-weight: 400;
-  color: #7c7c7c;
+  color: var(--s-text-color);
   margin-bottom: 20px;
 }
 .btn:focus {
@@ -1286,7 +1254,7 @@ p {
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
-  border-left: solid 0.5px #f7f4f3;
+  border-left: solid 0.5px var(--p-text-color);
   background-color: rgba(6, 6, 7, 0.9);
   padding-inline: 10px;
 }
@@ -1300,15 +1268,15 @@ p {
   font-size: 16px;
 }
 .nav-link {
-  color: #7c7c7c !important;
-  font-family: "Source Sans Pro", sans-serif;
+  color: var(--s-text-color) !important;
+  font-family: var(--p-font);
   font-size: 14px;
 }
 .nav-link:hover {
-  color: #c16200 !important;
+  color: var(--accent) !important;
 }
 i:hover {
-  color: #c16200 !important;
+  color: var(--accent) !important;
 }
 
 /* Scroll Content  */
@@ -1324,8 +1292,13 @@ i:hover {
 
 /* Main Container  */
 .main-container {
-  background-color: #060607;
+  background-color: var(--p-background-color);
+  color: var(--p-text-color);
   overflow: hidden;
+}
+.light-theme {
+  background-color: var(--s-background-color);
+  color: var(--p-text-color);
 }
 section {
   margin-right: 150px;
@@ -1338,7 +1311,7 @@ section {
   width: 100%;
 }
 .section-underline {
-  border-bottom: solid 1px #f7f4f3;
+  border-bottom: solid 1px var(--p-text-color);
   width: 50px;
   height: 1px;
 }
@@ -1368,7 +1341,7 @@ section {
   transition: 3s;
 }
 #frame-1 {
-  border: solid 1px #f7f4f3;
+  border: solid 1px var(--p-text-color);
   transform: translate(-0.4rem, 0.4rem);
   z-index: -1;
   position: absolute;
@@ -1377,7 +1350,7 @@ section {
   opacity: 0.25;
 }
 #frame-2 {
-  border: solid 1px #f7f4f3;
+  border: solid 1px var(--p-text-color);
   transform: translate(-0.8rem, 0.8rem);
   z-index: -1;
   position: absolute;
@@ -1386,7 +1359,7 @@ section {
   opacity: 0.15;
 }
 #frame-3 {
-  border: solid 1px #f7f4f3;
+  border: solid 1px var(--p-text-color);
   transform: translate(-1.2rem, 1.2rem);
   z-index: -1;
   position: absolute;
@@ -1483,7 +1456,7 @@ section {
 }
 .accordion-button:not(.collapsed) {
   background-color: transparent;
-  color: #f7f4f3;
+  color: var(--p-text-color);
   box-shadow: none;
   border-bottom: solid 0.1px;
 }
@@ -1493,12 +1466,12 @@ section {
 
 /* Resume */
 a:link {
-  color: #c16200;
+  color: var(--accent);
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: #7c7c7c;
+  color: var(--s-text-color);
   background-color: transparent;
   text-decoration: none;
 }
@@ -1522,8 +1495,8 @@ a:visited {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 300;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #f7f4f3;
+  font-family: var(--p-font);
+  color: var(--p-text-color);
 }
 .portfolio-image {
   width: 100%;
@@ -1544,21 +1517,21 @@ a:visited {
   font-style: italic;
 }
 .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: #f7f4f3;
+  background-color: var(--p-text-color);
 }
 .carousel-indicators [data-bs-target] {
   width: 6px;
   height: 6px;
 }
 .carousel-scroll-button:hover {
-  background-color: #c16200 !important;
+  background-color: var(--accent) !important;
 }
 
 /* Skills  */
 .progress-bar {
   height: 2px;
   margin-left: 20px;
-  background-color: #f7f4f3;
+  background-color: var(--p-text-color);
 }
 .progress-bar-label {
   margin-left: 20px;
@@ -1571,7 +1544,7 @@ a:visited {
 }
 .form-control {
   border: none;
-  border-bottom: solid 0.1px #f7f4f3 !important;
+  border-bottom: solid 0.1px var(--p-text-color) !important;
   background-color: transparent;
   text-transform: capitalize;
   border-radius: 0;
@@ -1584,12 +1557,12 @@ a:visited {
 [type="submit"]:not(:disabled) {
   background-color: transparent;
   border: none;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #f7f4f3;
+  font-family: var(--p-font);
+  color: var(--p-text-color);
   font-size: 16px;
 }
 .form-label:hover {
-  color: #c16200 !important;
+  color: var(--accent) !important;
 }
 
 /* Media Queries  */
@@ -1661,14 +1634,14 @@ a:visited {
 #resume-body .entries .entry .title {
   margin-bottom: 12px;
   position: relative;
-  color: #fff;
+  color: var(--p-text-color);
 }
 #resume-body .entries .entry .title:before {
   content: "";
   position: absolute;
   width: 8px;
   height: 8px;
-  border: 2px solid #ffffff;
+  border: 2px solid var(--p-text-color);
   border-radius: 100%;
   top: 50%;
   transform: translateY(-50%);
@@ -1681,7 +1654,7 @@ a:visited {
   transform: translate(8px, -50%);
 }
 #resume-body .entries .entry .body {
-  color: #aaa;
+  color: var(--s-text-color);
 }
 #resume-body .entries .entry:nth-child(2n) {
   text-align: left;
@@ -1706,6 +1679,6 @@ a:visited {
   bottom: 0px;
   transform: translateX(-50%);
   width: 1px;
-  background-color: #fff;
+  background-color: var(--p-text-color);
 }
 </style>
