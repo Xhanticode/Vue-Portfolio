@@ -666,7 +666,7 @@
             <img
               class="portfolio-image"
               data-bs-toggle="modal"
-              data-bs-target="#Restaurantly"
+              :data-bs-target="'#project'+index"
               :src="project.img"
             />
           </div>
@@ -843,7 +843,12 @@
       <section class="contact w-1oovh" id="contact">
         <div
           class="section-head"
-          style="display: flex; width: 50%; justify-content: space-around; margin-inline: auto;"
+          style="
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+            margin-inline: auto;
+          "
         >
           <p>&copy Xhanti</p>
           <p>copyright 2022</p>
@@ -854,19 +859,17 @@
 
   <!-- Modal -->
   <div
+    v-for="(project, index) in getprojects"
+    :key="index"
     class="modal fade"
-    id="Restaurantly"
+    :id="'project'+index"
     tabindex="-1"
     aria-labelledby="RestaurantlyLabel"
     aria-hidden="true"
   >
     <div class="modal-dialog">
       <div class="modal-content">
-        <div
-          class="modal-header"
-          v-for="(project, index) in getprojects"
-          :key="index"
-        >
+        <div class="modal-header">
           <h5 class="modal-title" id="RestaurantlyLabel">
             {{ project.title }}
           </h5>
@@ -874,7 +877,7 @@
         </div>
         <div class="modal-body d-flex justify-content-around">
           <img
-            src="../../images/Restaurantly-Site.png"
+            :src="project.img"
             alt="Restaurantly site"
             style="width: auto; height: 300px"
           />
@@ -882,13 +885,13 @@
         <div class="modal-footer">
           <button type="button" class="btn">
             <a
-              href="https://ephemeral-hamster-c1068a.netlify.app/"
+              :href="project.live"
               target="_blank"
               ><i class="fa-solid fa-circle-info"></i
             ></a>
           </button>
           <button type="button" class="btn">
-            <a href="https://github.com/Xhanticode/Restaurant" target="_blank"
+            <a :href="project.github" target="_blank"
               ><i class="fa-brands fa-github"></i
             ></a>
           </button>
