@@ -907,54 +907,6 @@
       </div>
     </div>
   </div>
-  <!-- Modal -->
-  <div
-    class="modal fade"
-    id="MockPortfolio"
-    tabindex="-1"
-    aria-labelledby="MockPortfolioModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="MockPortfolioModalLabel">Restaurantly</h5>
-          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-        </div>
-        <div class="modal-body d-flex justify-content-around">
-          <img
-            src="../../images/Mock-Portfolio-Site.png"
-            alt="Mock Portfolio Site"
-            style="width: auto; height: 300px"
-          />
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn">
-            <a
-              href="https://helpful-mandazi-172bca.netlify.app/"
-              target="_blank"
-              ><i class="fa-solid fa-circle-info"></i
-            ></a>
-          </button>
-          <button type="button" class="btn">
-            <a
-              href="https://github.com/Xhanticode/Personal-Portfolio"
-              target="_blank"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-          </button>
-          <button
-            type="button"
-            class="btn"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          >
-            <i class="fa-solid fa-xmark"></i>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
 </template>
 
 <script>
